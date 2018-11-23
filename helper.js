@@ -13,11 +13,11 @@ function updateVotingPowerStatus(bot, username) {
 
 function handleBotCommand(command, params, message) {
     switch (command) {
-        case `help`:
-        case `info`:
+        case `hp`:
+        case `hh`:
             handleHelpCommand(message);
             break;
-        case `upvote`:
+        case `wp`:
             handleUpvoteCommand(message, params);
             break;
         default:
