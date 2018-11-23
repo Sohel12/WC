@@ -3,5 +3,5 @@
   "username": "WEKU_USERNAME",
   "postingKey": "WEKU_WIF",
   "weight": 100,
-  "commandPrefix" : "$"
+  "commandPrefix" : "000"
 }
